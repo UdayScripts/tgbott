@@ -4,27 +4,23 @@
     "title": "Lifafa Panel",
     "scid": "#UDAYSCRIPTS12",
     "description": "Simple And Smart Lifafa Panel",
-    "thumb_url": "https://i.ibb.co/9Nh4PJc/Whats-App-Image-2024-03-04-at-16-36-47-5f7bcd63.jpg"
+    "thumb_url": "https://i.ibb.co/9Nh4PJc/Whats-App-Image-2024-03-04-at-16-36-47-5f7bcd63.jpg",
+    "prc" : 15,
+    "ext" : "zip",
+    "size" : "1.5 MB",
+    "admin" : "1489381549",
+    "file_id" : "h4ndb81gqeoetw1ld63cgzmqw4kndkkv"
   },
   {
     "id": 1,
-    "title": "City",
-    "scid": "#UDAYSCRIPTS13",
-    "description": "City",
-    "thumb_url": "https://via.placeholder.com/150"
-  },
-  {
-    "id": 2,
-    "title": "Animals",
-    "scid": "#UDAYSCRIPTS14",
-    "description": "Animals",
-    "thumb_url": "https://via.placeholder.com/150"
-  },
-  {
-    "id": 3,
-    "title": "Things",
-    "scid": "#UDAYSCRIPTS15",
-    "description": "Things",
-    "thumb_url": "https://via.placeholder.com/150"
+    "title": "Campaign Panel",
+    "scid": "#UDAYSCRIPTS12",
+    "description": "Simple And Smart Campaign Panel",
+    "thumb_url": "https://i.ibb.co/Pzp6sHd/channels4-profile.jpg",
+    "prc" : 15,
+    "ext" : "zip",
+    "size" : "1.5 MB",
+    "admin" : "1489381549",
+    "file_id" : "h4ndb81gqeoetw1ld63cgzmqw4kndkkv"
   }
 ]

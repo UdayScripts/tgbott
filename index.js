@@ -577,6 +577,23 @@ bot.on('callback_query', async (callbackQuery) => {
       });
     } else if (data === 'delete') {
       await bot.deleteMessage(chatId, message.message_id);
+    } else if (data === 'rate'){
+      
+      var but = [
+        [{ text: "❤❤❤❤❤", callback_data: "/rate22 5" }],
+        [{ text: "🧡🧡🧡🧡", callback_data: "/rate22 4" }],
+        [{ text: "💚💚💚", callback_data: "/rate22 4" }],
+        [{ text: "💙💙", callback_data: "/rate22 2" }],
+        [{ text: "🖤", callback_data: "/Rate0" }]
+      ];
+      var xxyz = "💛 *Please Rate Us :*";
+      bot.sendMessage(message.chat.id, xxyz, {
+        parse_mode: "Markdown",
+        disable_web_page_preview: true,
+        reply_markup: {
+          inline_keyboard: but
+        }
+      });
     } else if (data === 'joined') {
       await bot.deleteMessage(chatId, message.message_id);
 
